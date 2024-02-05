@@ -13,9 +13,9 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
 
-    // Add a delay for the splash screen
+  
     Timer(Duration(seconds: 2), () {
-      // Navigate to the next screen (replace 'HomeScreen' with your desired screen)
+    
       Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => homepage()));
     });
   }
@@ -27,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Your splash screen content, e.g., logo or app name
+           
             Image.asset('assets/instalogo.png.png',
              width: 100, height: 100),
             const SizedBox(height: 20),

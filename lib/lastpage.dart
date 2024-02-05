@@ -8,13 +8,7 @@ class homepage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
      title: const Text("instagram"), 
-    //  IconButton(
-    //           icon: const Icon(Icons.camera_alt),
-    //           onPressed: () {
-               
-    //           },
-    //         )
-
+    
       ),
       body:const Center(
         child: const Text("holooi"),
